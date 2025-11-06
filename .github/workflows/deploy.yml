@@ -16,7 +16,6 @@ jobs:
           username: Kevin
           key: ${{ secrets.PRIVATE_KEY }}
           script: |
-            cd /var/www/html/A4
-            git reset --hard
-						git pull
+            cd /var/www/html/A4/
+            git reset --hard; git pull
             npm run build
