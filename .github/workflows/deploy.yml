@@ -19,4 +19,4 @@ jobs:
             cd /var/www/html/A4/
             git reset --hard; git pull
             npm run build
-            sudo systemctl reload php8.4-fpm
+            sudo service php8.4-fpm reload
