@@ -20,4 +20,4 @@ jobs:
             git reset --hard; git pull
             npm run build
             sudo service php8.4-fpm reload
-            sudo systemctl restart php8.4-fpm
+            
